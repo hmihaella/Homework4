@@ -1,0 +1,198 @@
+body {
+  background-image: radial-gradient(rgb(51, 165, 144), #e3e8e9);
+  font-family: "Times New Roman", Times, serif;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+}
+
+h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-block-start: 5rem;
+  margin-block-end: 0rem;
+  display: flex;
+  vertical-align: middle;
+}
+
+.content1 {
+  background-color: #e2f7f3;
+  padding: 1rem;
+  max-width: auto;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  box-sizing: content-box;
+  height: calc(100vh - 1.5rem);
+  margin-block-start: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+  border-inline-end: 0.4rem solid black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+}
+
+.menu-item.active {
+  background-color: rgb(219, 123, 123);
+}
+
+.img {
+  height: 7.5rem;
+  padding: 0.75rem 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.content2 {
+  background-color: #e2f7f3;
+  display: flex;
+  padding: 0.3rem;
+  box-sizing: content-box;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  margin-block-start: 1rem;
+  margin-inline-end: 1rem;
+}
+
+.link {
+  background-color: #0e46adec;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  text-decoration: none;
+  margin-inline-start: 4rem;
+  display: inline-block;
+}
+
+.content3 {
+  box-sizing: border-box;
+  background-color: rgba(226, 247, 243, 0.801);
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+.subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.75rem;
+  margin-block-start: 0rem;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .menu {
+    display: flex;
+    text-transform: lowercase;
+    justify-content: flex-end;
+  }
+
+  h2 {
+    margin-block-start: 5rem;
+    margin-block-end: 0rem;
+    display: flex;
+    vertical-align: middle;
+  }
+
+  .content1 {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    width: 130ch;
+    padding: 1rem 2rem;
+    min-height: calc(100vh - 0.4rem);
+  }
+
+  .menu-item {
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+  }
+
+  .content2 {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 4rem;
+    margin-block-end: auto;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .img {
+    width: 25rem;
+    height: 20rem;
+    padding: 2rem 1rem;
+    position: relative;
+    margin-inline-end: 0rem;
+    margin-block-start: -5rem;
+  }
+
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 1rem;
+    margin-block-end: 1.5rem;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 3rem;
+    font-size: 1rem;
+  }
+
+  .link {
+    font-size: 1rem;
+    width: 15ch;
+    height: 1ch;
+    padding: 0.5rem;
+    display: inline-block;
+    margin-block-start: 2rem;
+    margin-block-end: 0rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    margin-block-start: -15rem;
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+}
